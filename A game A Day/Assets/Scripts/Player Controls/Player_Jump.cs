@@ -7,7 +7,7 @@ public class Player_Jump : MonoBehaviour
     public KeyCode input;
     public float force;
     [SerializeField]
-    inputAction button;
+    inputAction button = inputAction.press;
 
     enum inputAction
     {
