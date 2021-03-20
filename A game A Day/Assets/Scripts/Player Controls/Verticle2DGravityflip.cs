@@ -29,7 +29,7 @@ public class Verticle2DGravityflip : MonoBehaviour
                 gravity = lift_Force;
                 break;
             case false:
-                gravity = -lift_Force;
+                gravity = 0f;
                 break;
         }
 
