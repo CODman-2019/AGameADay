@@ -7,6 +7,7 @@ TagManager:
   - Checkpoint
   - Killzone
   - Endpoint
+  - Reset
   layers:
   - Default
   - TransparentFX
