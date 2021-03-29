@@ -39,7 +39,7 @@ public class RoomSpawn : MonoBehaviour
         if (other.CompareTag("Room"))
         {
             Debug.Log(other.gameObject);
-            DungeonManager.floor.RoomDecrease();
+            //DungeonManager.floor.RoomDecrease();
             Destroy(this.gameObject);
         }
 
