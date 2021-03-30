@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5414934136166770201}
   - component: {fileID: 8421737245901176588}
   - component: {fileID: 6567698450731105503}
+  - component: {fileID: 1106411324234013211}
   m_Layer: 0
   m_Name: Spawn room N
   m_TagString: Untagged
@@ -64,6 +65,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1106411324234013211
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5905133997777507730}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &7677319137683293350
 GameObject:
   m_ObjectHideFlags: 0
@@ -75,6 +92,7 @@ GameObject:
   - component: {fileID: 258326977088416089}
   - component: {fileID: 1965478490688029951}
   - component: {fileID: 105986176336425013}
+  - component: {fileID: 4848113316739249708}
   m_Layer: 0
   m_Name: Spawn room E
   m_TagString: Untagged
@@ -128,6 +146,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4848113316739249708
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7677319137683293350}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &7855498121956290605
 GameObject:
   m_ObjectHideFlags: 0
@@ -4494,6 +4528,7 @@ GameObject:
   - component: {fileID: 1876345102491828258}
   - component: {fileID: 943080259885774945}
   - component: {fileID: 6204159036067317202}
+  - component: {fileID: 5587092686362585381}
   m_Layer: 0
   m_Name: Spawn room W
   m_TagString: Untagged
@@ -4547,3 +4582,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5587092686362585381
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8778962568010509029}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0

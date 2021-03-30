@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4620939852328046191}
   - component: {fileID: 6286072774066703096}
   - component: {fileID: 4792253086983377985}
+  - component: {fileID: 6792075690973996221}
   m_Layer: 0
   m_Name: Spawn room S
   m_TagString: Untagged
@@ -64,6 +65,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &6792075690973996221
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4620939852328046188}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &4620939852455858131
 GameObject:
   m_ObjectHideFlags: 0
@@ -4493,6 +4510,7 @@ GameObject:
   - component: {fileID: 4620939852750516081}
   - component: {fileID: 5584038584877770082}
   - component: {fileID: 6249990206980763942}
+  - component: {fileID: 7188195208092197586}
   m_Layer: 0
   m_Name: Spawn room  N
   m_TagString: Untagged
@@ -4546,6 +4564,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &7188195208092197586
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4620939852750516086}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &4620939852802419128
 GameObject:
   m_ObjectHideFlags: 0
@@ -4557,6 +4591,7 @@ GameObject:
   - component: {fileID: 4620939852802419131}
   - component: {fileID: 6113258242258481235}
   - component: {fileID: 8506016722586007672}
+  - component: {fileID: 5649935902348048504}
   m_Layer: 0
   m_Name: Spawn room W
   m_TagString: Untagged
@@ -4610,6 +4645,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5649935902348048504
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4620939852802419128}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &4620939853103494846
 GameObject:
   m_ObjectHideFlags: 0
@@ -4621,6 +4672,7 @@ GameObject:
   - component: {fileID: 4620939853103494841}
   - component: {fileID: 4620939853103494840}
   - component: {fileID: 5092182868751897508}
+  - component: {fileID: 5785811440826739376}
   m_Layer: 0
   m_Name: Spawn room E
   m_TagString: Untagged
@@ -4674,3 +4726,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5785811440826739376
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4620939853103494846}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
